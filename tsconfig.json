@@ -1,0 +1,11 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "outDir":"build",
+        "target":"ES6",
+        "lib":["ES6"],
+        "strict": true,
+        "esModuleInterop": true, //crypto 를 import 하기위한 설정
+        "module": "CommonJS"
+    }
+}
